@@ -1,0 +1,20 @@
+.greentext {
+  color: green;
+}
+
+
+#maintitle {
+  text-decoration: underline;
+  color: red;
+  font-family: 'Homemade Apple', cursive;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:visited {}
