@@ -3,6 +3,7 @@
   font-size: 45px;
   color: white;
   font-family: 'Dancing Script', cursive;
+  padding: 10px;
 }
 
 #aboutme {
@@ -18,15 +19,15 @@ font-family: 'Indie Flower', cursive;
 }
 
 .bodytext {
-  color: #5523A4
+  color: #5523A4;
 }
 
 .table {
-  color: #50BCC6
+  color: #50BCC6;
 }
 
 .tableheader {
-  color: #017A85
+  color: #017A85;
 }
 
 .pink-bg {
@@ -58,4 +59,6 @@ section {
   border-top: 3px dotted pink; }
 
 ul {
-  list-style-type: square; }
+  list-style-type: square;
+  color: purple;
+}
