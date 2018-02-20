@@ -1,20 +1,61 @@
-.greentext {
-  color: green;
-}
-
 
 #maintitle {
-  text-decoration: underline;
-  color: red;
-  font-family: 'Homemade Apple', cursive;
+  font-size: 45px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
 }
 
+#aboutme {
+text-decoration: underline;
+color: #F778A5;
+font-family: 'Indie Flower', cursive;
+}
+
+.purpletext {
+  color: purple;
+  text-decoration: underline;
+  font-family: 'Indie Flower', cursive;
+}
+
+.bodytext {
+  color: #5523A4
+}
+
+.table {
+  color: #50BCC6
+}
+
+.tableheader {
+  color: #017A85
+}
+
+.pink-bg {
+  background: #F778A5; }
+
+.pink-text {
+  color: #F778A5; }
+
 a {
-  color: brown;
+  color: #5523A4;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #F46800;
 }
-a:visited {}
+
+main {
+  width: 580px;
+  border: 1px solid purple;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px
+}
+
+section {
+  margin-top: 20px;
+  border-top: 3px dotted pink; }
+
+ul {
+  list-style-type: square; }
