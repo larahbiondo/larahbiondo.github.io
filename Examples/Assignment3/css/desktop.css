@@ -1,3 +1,10 @@
+.image-bg {
+  background-image: url("../images/wideldscp.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 header h1 {
 height: 100px;
 padding-top: 50px;
@@ -19,4 +26,25 @@ padding-bottom: 15px;
 display: inline;
 padding: 15px;
 
+}
+
+.square-img {
+  display: none;
+}
+
+.wide-img {
+  display: block;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  /*footer doesn't need to be FIXED, can delete all of this and just make it normal at the end of the page*/
+}
+
+.push {
+  display: block;
+  height: 100px;
 }
