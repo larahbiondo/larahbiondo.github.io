@@ -15,10 +15,78 @@ display: inline;
 padding: 15px;
 }
 
-.square-img {
-  display: none;
+main {
+  width: 720px;
+  border: 3px dotted #35B4A3;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px
 }
 
 .wide-img {
   display: block;
+}
+
+.gallery {width: 100%;
+}
+
+.gallery li {
+  width: 45%;
+  margin: 2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.push {
+  display: block;
+  height: 100px;
+}
+
+.leftcol {
+  width: 300px;
+  border: none;
+  min-height: 200px;
+  display: block;
+  float: left;
+  padding: 10px
+}
+
+.rightcol {
+  width: 300px;
+  border: none;
+  min-height: 200px;
+  display: block;
+  float: right;
+  padding-right: 25px
+}
+
+.leftcol2 {
+  width: 220px;
+  border: none;
+  min-height: 200px;
+  display: block;
+  float: left;
+  padding: 10px
+}
+
+.rightcol2 {
+  width: 400px;
+  border: none;
+  min-height: 100px;
+  display: block;
+  float: right;
+  padding-right: 30px
+}
+
+.profileimg {
+  padding-left: 20px;
+  width: 400px;
+}
+
+.wide-img {
+  display: block;
+  width: 700px;
+  padding-left: 9px;
+  padding-bottom: 20px;
 }
