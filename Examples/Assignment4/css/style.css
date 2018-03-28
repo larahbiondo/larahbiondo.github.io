@@ -44,6 +44,10 @@ font-family: 'Lobster Two', cursive;
 font-size: 33px;
 }
 
+#survey {
+  width: 550px;
+}
+
 #yes {
   background-color: green;
   font-size: 13px;
