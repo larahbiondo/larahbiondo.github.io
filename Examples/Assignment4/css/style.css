@@ -1,0 +1,90 @@
+#howTo li { display: none; }
+#howTo li.active { display: block; }
+
+#title {
+  font-family: 'Lobster Two', cursive;
+  font-size: 35px;
+  color: #072F8C;
+}
+
+#next {
+  background-color: orange;
+  font-size: 13px;
+  color: #072F8C;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+#previous {
+  background-color: #072F8C;
+  font-size: 13px;
+  color: orange;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+#finish {
+  background-color: orange;
+  font-size: 13px;
+  color: #072F8C;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+#getStarted {
+  background-color: orange;
+  font-size: 15px;
+  color: #072F8C;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+#surveyTitle {
+font-family: 'Lobster Two', cursive;
+font-size: 33px;
+}
+
+#yes {
+  background-color: green;
+  font-size: 13px;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+#no {
+  background-color: red;
+  font-size: 13px;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+ol {
+  width: 530px;
+  border: 2px solid orange;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+
+h2 {
+  background: orange;
+  padding: 10px;
+  margin-top: none;
+}
+
+.intro {
+font-family: 'Amatic SC', cursive;
+font-size: 25px;
+}
+
+.instructions {
+font-family: 'Amatic SC', cursive;
+font-size: 28px;
+}
+
+.steps {
+font-family: 'Lobster Two', cursive;
+font-size: 33px;
+color: #072F8C;
+}
