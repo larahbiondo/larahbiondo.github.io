@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQ Plugins</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery/css/blueimp-gallery.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  </head>
+
+
+  <body>
+
+<header>
+    <h1 id="maintitle">Welcome to Cancun</h1>
+</header>
+
+<main>
+<p class="bodytext">Cancun is a tropical paradise that remains one of the world’s top tourist destinations. This comes as no surprise when you consider how much Cancun has to offer.<br>
+<br>
+If you’re looking for a place with great weather, pumping nightlife, many accommodation options and some of the coolest activities in Mexico, Cancun is where you want to be.</p>
+
+
+<section>
+
+<h2 class="titles">Places to Visit</h2>
+
+<!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+
+    <div id="links" style="display:none">
+    <a href="images/chichen.jpg" title="Chichen Itza">
+        <img src="images/chichen.jpg" alt="Chichen Itza">
+    </a>
+    <a href="images/isla.jpg" title="Isla Mujeres">
+        <img src="images/isla.jpg" alt="Isla Mujeres">
+    </a>
+    <a href="images/dreams.jpg" title="Delphinus Dreams Cancun">
+        <img src="images/dreams.jpg" alt="Delphinus Dreams Cancun">
+    </a>
+    <a href="images/aquarium.jpg" title="Interactive Aquarium">
+        <img src="images/aquarium.jpg" alt="Interactive Aquarium">
+    </a>
+    <a href="images/coco.jpg" title="Coco Bongo">
+        <img src="images/coco.jpg" alt="Coco Bongo">
+    </a>
+</div>
+
+<ol>
+  <li class="li"><a href="https://travel.usnews.com/Cancun_Mexico/Things_To_Do/Chichen_Itza_Tour_Cosmos_Tours_33132/"></a>Chichen Itza
+  <p class="bodytext">Chichén Itzá is a large Mayan archaeological site and one of the most notable and recognized landmarks on the Yucatán. The site itself was originally a main hub of Mayan civilization and has since been named a UNESCO World Heritage Site. The focal point of the ruins is the pyramid-like El Castillo that was once used by Mayans as a temple for worship.</p></li>
+  <li class="li"><a href="https://travel.usnews.com/Cancun_Mexico/Things_To_Do/Isla_Mujeres_55982/"></a>Isla Mujeres
+<p class="bodytext">To escape the frantic beat of Cancún's nightlife and beaches, head to Isla Mujeres (or the Island of Women).
+Despite the island's sleepy reputation, it hosts a few sites worth checking out. One is the Hacienda Mundaca, the ruined mansion of a 19th-century slave trader named Mundaca. The mysterious death of the house's owner adds to the colonial estate's haunting charm. Isla Mujeres also remains popular for its sea turtles, and you can glimpse the creatures at the local tortugranja, or turtle farm.</p>
+  </li>
+  <li class="li"><a href="https://travel.usnews.com/Cancun_Mexico/Things_To_Do/Delphinus_Dreams_Cancun_62409/"></a>Delphinus Dreams Cancun
+<p class="bodytext">Operating out of the Dreams Cancún Hotel in the Hotel Zone, Delphinus Dreams Cancún allows visitors to swim with dolphins. The facility offers multiple different programs, each focused on a different type of interaction with the dolphins. For example, the "Trainer for a Day" program teaches participants different training and care techniques, while "The One" allows swimmers to get to know one specific dolphin over the course of an hour.</p>
+  </li>
+  <li class="li"><a href="https://travel.usnews.com/Cancun_Mexico/Things_To_Do/Interactive_Aquarium_62411/"></a>Interactive Aquarium
+<p class="bodytext">If you're visiting Cancún with kids in tow, the Interactive Aquarium is worth a look. Located in the La Isla Shopping Village just west of the Hotel Zone, this family-friendly attraction takes a hands-on approach to educating visitors about local marine life. From touch tanks to dolphin swims to shark feedings, you'll get up close and personal with several underwater dwellers.</p>
+  </li>
+  <li class="li"><a href="https://travel.usnews.com/Cancun_Mexico/Things_To_Do/Coco_Bongo_Cancun_12445/"></a>Coco Bongo Cancun
+<p class="bodytext">Considered the spot for nightlife in Cancún, Coco Bongo isn't your traditional, DJ-controlled nightclub. Instead, thousands of travelers pack the house to witness nonstop performances from acrobats, conga lines, live bands and musician impersonators. A typical night at Coco Bongo involves projected videos, balloons, soap bubbles and confetti.</p>
+  </li>
+</ol>
+
+</section>
+
+</main>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+<script src="gallery/js/blueimp-gallery.min.js"></script>
+
+
+
+<script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>
+
+
+
+  </body>
+</html>
